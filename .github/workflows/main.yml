@@ -21,5 +21,5 @@ jobs:
           git config --global user.email "hannanbintahir@gmail.com"
           git config --global user.name "hannanbintahir"
           git config pull.rebase false
-          git pull --strategy-option https://Hannan97:$HF_TOKEN@huggingface.co/spaces/Hannan97/Search_Engine_llm main --allow-unrelated-histories
+          git pull --strategy-option theirs  https://Hannan97:$HF_TOKEN@huggingface.co/spaces/Hannan97/Search_Engine_llm main --allow-unrelated-histories
           git push https://Hannan97:$HF_TOKEN@huggingface.co/spaces/Hannan97/Search_Engine_llm main
